@@ -23,3 +23,10 @@ Correlation analysis — full correlation heatmap across all blood parameters an
 Statistical inference — Welch's independent-sample t-tests comparing every numeric variable between positive and negative groups, with significance flags at p < 0.05.
 Machine learning model — HistGradientBoostingClassifier trained on an 80/20 stratified split, tuned with 500 iterations, learning rate 0.05, max depth 6, and L2 regularization 0.1.
 Model evaluation — accuracy, ROC-AUC, and confusion matrix reporting, achieving 74.34% accuracy and 0.6719 ROC-AUC.
+
+*Limitation
+The limitation of this project is that it is built on a limited dataset with restricted features, leading to only moderate model performance and reliability. Due to the absence of important real-world factors, lack of advanced optimization and model comparison, and no external validation, the model’s ability to generalize and be used in actual clinical settings remains constrained.
+
+**Reference:
+“A comprehensive hematological dataset for dengue incidence in Bangladesh”
+Available: https://www.sciencedirect.com/science/article/pii/S2352340925003944
